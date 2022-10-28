@@ -1,0 +1,23 @@
+{
+    "name": "tannguyen/framework",
+    "type": "library",
+    "authors": [
+        {
+            "name": "tannguyen"
+        }
+    ],
+    "require": {
+        "ext-pdo": "*",
+        "ext-json": "*",
+        "php": "^7.4|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bsm\\": "src/Bsm/",
+            "App\\": "app/"
+        },
+        "files": [
+            "/src/Bsm/Foundation/helpers.php"
+        ]
+    }
+}
